@@ -1,0 +1,24 @@
+git clone https://github.com/nikolinapetrovic/SI_2022_lab1_206022
+git add shopping_list.txt
+git commit -m "Add 5 items to the shopping list"
+git commit -a -m "Add quantities to the items"
+git branch branch1
+git branch branch2
+git checkout branch1
+git rebase master
+git commit -a -m "Change quantity of item #5"
+git checkout master
+git commit -a -m "Change quantity of item #1"
+git checkout branch1
+git rebase master
+git checkout branch2
+git rebase master
+git commit -a -m "Modify item #4"
+git reset --soft HEAD~1
+git commit -a -m "Modify item #4 and add item #6"
+git checkout master
+git merge branch1
+git add shopping_list.txt
+git commit -m "Modify item #4 and add item #6"
+
+
