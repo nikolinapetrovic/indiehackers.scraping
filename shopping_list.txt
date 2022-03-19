@@ -1,5 +1,6 @@
 Milk x3
 Eggs x11
 Water x2
-Cheese x1
-Peanuts x2
+Bread x2
+Peanuts x1
+Laptop x1
