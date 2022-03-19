@@ -1,5 +1,5 @@
-Milk
-Eggs
-Water
-Cheese
-Peanuts
+Milk x3
+Eggs x10
+Water x2
+Cheese x1
+Peanuts x1
